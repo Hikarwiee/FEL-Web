@@ -88,12 +88,12 @@ p {
 	padding: 20px;
 }
 
-.flex-container {
+.prodrow {
 display: flex;
 justify-content: center;
 }
 
-.flex-container > div {
+.prodrow > .prodcol {
   background-color: #111222;
   width: 400px;
   height: auto;
@@ -101,6 +101,34 @@ justify-content: center;
   text-align: center;
   line-height: 30px;
   font-size: 30px;
+}
+
+.prodcol {
+  background-color: #dfcaa0; 
+						width:1200px;
+						margin-top:10px;
+}
+
+.grocery {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left:10px;
+}
+
+/* Hide the browser's default checkbox */
+.grocery input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
 
 .img {
@@ -125,6 +153,8 @@ justify-content: center;
 a {
 	color: white;
 }
+
+.grocery{margin-left:10px;}
 
 .middle {
   transition: .5s ease;
@@ -272,7 +302,7 @@ a {
   font-size: 30px;
 }
 
-.containerr {
+.grocery {
   display: block;
   position: relative;
   margin-bottom: 12px;
@@ -285,7 +315,7 @@ a {
 }
 
 /* Hide the browser's default checkbox */
-.containerr input {
+.grocery input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
