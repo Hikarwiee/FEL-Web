@@ -79,7 +79,7 @@ nav input[type=text] {
 }
 
 body {
-	background-color: #121212
+	background-color: #121212;
 }
 
 p {
@@ -88,13 +88,31 @@ p {
 	padding: 20px;
 }
 
+.links{
+  overflow: hidden;
+  background-color: #222e50;
+}
+
+.styling{
+  color: white
+}
+
+/* ============================================ STOCKS CSS ============================================ */      
+
+
+.products {
+  background-color: #111222;
+  width: auto;
+  margin: auto;
+}
+
 .prodrow {
 display: flex;
 justify-content: center;
 }
 
 .prodrow > .prodcol {
-  background-color: #111222;
+  background-color: #dfcaa0;
   width: 400px;
   height: auto;
   margin: 10px;
@@ -105,8 +123,9 @@ justify-content: center;
 
 .prodcol {
   background-color: #dfcaa0; 
-						width:1200px;
+						width: auto;
 						margin-top:10px;
+            padding: 10px;
 }
 
 .grocery {
@@ -131,21 +150,17 @@ justify-content: center;
   width: 0;
 }
 
-.img {
-	width: 100px;
-	height: 100px;
-}
 
 .image {
   opacity: 1;
   display: float;
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
-.container {
+.prodcol {
   position: relative;
   width: 50%;
 }
@@ -167,11 +182,11 @@ a {
   text-align: center;
 }
 
-.container:hover .image {
+.prodcol:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.prodcol:hover .middle {
   opacity: 1;
 }
 
@@ -182,6 +197,7 @@ a {
 }
 
 <!-- ==================================================================================================== -->
+
 .popup {
   position: relative;
   display: inline-block;
@@ -334,12 +350,12 @@ a {
 }
 
 /* On mouse-over, add a grey background color */
-.containerr:hover input ~ .checkmark {
+.grocery:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.containerr input:checked ~ .checkmark {
+.grocery input:checked ~ .checkmark {
   background-color: #2196F3;
 }
 
@@ -351,12 +367,12 @@ a {
 }
 
 /* Show the checkmark when checked */
-.containerr input:checked ~ .checkmark:after {
+.grocery input:checked ~ .checkmark:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.containerr .checkmark:after {
+.grocery .checkmark:after {
   left: 9px;
   top: 5px;
   width: 5px;
