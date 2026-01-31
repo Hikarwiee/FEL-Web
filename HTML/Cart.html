@@ -6,56 +6,44 @@
 	<link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/CSS/global%20css.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 	<title> 
-		Your Cart
+		Macapagal Sari-sari Store
 	</title>
-	</head>
+</head>
+
+<header class="header">
+	<nav class="links">
+			 <a class="text-styling" href = "Home.html"> Home </a> 
+			 <a class="text-styling" href = "Stocks.html"> Stocks </a> 
+			 <a class="text-styling" href = "Cart.html"> Cart </a> 
+			 <a class="text-styling" href = "SRP.html" onclick = "window.open('SRP.html', 'newwindow', 'width=400, height=400 ,resizable=no , scrollbars=false'); return false;"> SRP </a> 
+			<input type = "text" placeholder = "Search Products">
+			<h1 class="mcpgl"> Macapagal Sari-sari Store </h1>
+	</nav>
+</header>
 	
-<div class="topnav">
-		<a href = "Home.html">Home</a>
-		<a href = "Stocks.html"> Stocks </a>
-		<a class = "active" href = "Cart.html"> Cart </a>
-		<a href = "SRP.html" onclick = "window.open('SRP.html', 'newwindow', 'width=400, height=400 ,resizable=no , scrollbars=false'); return false;"> SRP </a>
-		<div>
-		<input type="text" placeholder="Search Products">
-		</div>
-		
-		<center><h1> Macapagal Sari-sari Store <h1></center>
-	</div>	
-	
-<body style = "background-color: #121212">
+<body class="bgcolor">
 
 
-<div style = "background-color: #111222; 
-			width:1260px;
-			margin:auto;">
-			
-			
-<div class = "flex-container">	
-			<div style = "background-color: #ffffed; 
-						width:1200px;
-						margin-top:10px;">
-			<img src= "C:\Users\rayfr\OneDrive\Desktop\FEL Web\FILES\zesto.webp" alt="test" class="image" style = "width: 100px; height:100px;">
-			<label class="containerr" style = "margin-left:10px"> Zesto
+<div class="wapak">	<!-- former flex-con -->
+			<div class="checked">
+			<img src= "http://127.0.0.1:5500/FILES/zesto.webp" alt="test" class="image" style = "width: 100px; height:100px;">
+			<label class="grocery" style = "margin-left:10px"> Zesto
 			<input type="checkbox" checked="checked">
 			<span class="checkmark"></span>
 			</label>
 			</div>
 				
-			<div style = "background-color: #ffffed; 
-						width:1200px;
-						margin-top:10px;">
-			<img src= "C:\Users\rayfr\OneDrive\Desktop\FEL Web\FILES\chuckie.png" alt="test" class="image" style = "width: 100px; height:100px;">
-			<label class="containerr" style = "margin-left:10px"> Chuckie
+			<div class="checked">
+			<img src= "http://127.0.0.1:5500/FILES/chuckie.png" alt="test" class="image" style = "width: 100px; height:100px;">
+			<label class="grocery" style = "margin-left:10px"> Chuckie
 			<input type="checkbox" checked="checked">
 			<span class="checkmark"></span>
 			</label>
 			</div>
 			
-			<div style = "background-color: #ffffed; 
-						width:1200px;
-						margin-top:10px;">
-			<img src = "C:\Users\rayfr\OneDrive\Desktop\FEL Web\FILES\beans.png" alt="test" class="image" style = "width: 100px; height:100px;">
-			<label class="containerr" style = "margin-left:10px"> Hunt's Pork and Beans
+			<div class="checked">
+			<img src = "http://127.0.0.1:5500/FILES/beans.png" alt="test" class="image" style = "width: 100px; height:100px;">
+			<label class="grocery" style = "margin-left:10px"> Hunt's Pork and Beans
 			<input type="checkbox" checked="checked">
 			<span class="checkmark"></span>
 			</label>
@@ -65,6 +53,5 @@
 
 <input style = "margin-left: 1100px; margin-top: 5px;" type="button" onclick="alert('Succesfully bought. Automatically Added to Stocks.')" value="Buy Selected Items">
 
-</div>
 </body>
 </html>

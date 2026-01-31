@@ -1,0 +1,23 @@
+.links{
+  overflow: hidden;
+  background-color: #222e50;
+}
+
+.mcpgl{
+  text-align: center;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1, h2, h3{
+  color: white;
+  font-family: sans-serif;
+}
+
+.login-wrapper{
+    background-color: #dfcaa0; 
+						width: auto;
+						margin-top:10px;
+                        padding: 10px;
+                        margin-left:25%;
+                        margin-right: 25%;
+}

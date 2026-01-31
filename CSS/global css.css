@@ -93,7 +93,7 @@ p {
   background-color: #222e50;
 }
 
-.styling{
+.text-styling{
   color: white
 }
 
@@ -196,7 +196,19 @@ a {
   font-size: 16px;
 }
 
-<!-- ==================================================================================================== -->
+/* ===================================== Cart =================================================== */
+
+.checklist{
+  background-color: #111222; 
+	width:1260px;
+	margin:auto;
+}
+
+.loob{
+  background-color: #ffffed; 
+						width:1200px;
+						margin-top:10px;
+}
 
 .popup {
   position: relative;
@@ -382,4 +394,27 @@ a {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+
+.wapak {
+display: flex;
+justify-content: center;
+}
+
+.wapak > .checked {
+  background-color: #ffffed;
+  width: 400px;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.checked {
+  background-color: #ffffed; 
+						width: auto;
+						margin-top:10px;
+            padding: 10px;
 }
